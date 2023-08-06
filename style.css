@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('images/bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.taskbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    bottom: 0;
+    background-color: #f3f3f3;
+    height: 45px;
+}
+
+.taskbar-center{
+    background-image: url('images/icons.PNG');
+    background-size: cover;
+    width: 25%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#start-btn{
+    background-color: transparent;
+    height: 100%;
+    width: 45px;
+    border: none;
+}
+
+#start-menu{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    transition: all .35s ease-in;
+}
+
+.start-menu img {
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.taskbar-right{
+    position: absolute;
+    right: 0;
+    margin: 1px;
+    height: 100%;
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskbar-right img{
+    height: 85%;
+    width: 100%;
+}
